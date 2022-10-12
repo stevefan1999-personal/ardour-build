@@ -15,6 +15,7 @@ on:
       - 'LICENSE'
   repository_dispatch:
     types: ardour-win-build
+  workflow_dispatch:
 
 env:
   ARDOUR_VERSION: 6.9
