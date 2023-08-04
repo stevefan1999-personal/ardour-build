@@ -311,7 +311,7 @@ wq
 EOF
 autoconfbuild
 
-src expat-2.4.1 tar.gz https://sourceforge.net/projects/expat/files/expat/2.4.1/expat-2.4.1.tar.gz
+src https://src.fedoraproject.org/repo/pkgs/expat/expat-2.4.1.tar.gz/sha512/1f08861e9b766fdbbc40159404a3fe1a86451d635ef81874fa3492845eda83ac2dc6a0272525891d396b70c9a9254c2f6c907fe4abb2f8a533ccd3f52dae9d5a/expat-2.4.1.tar.gz
 # src expat-2.1.0 tar.gz https://sourceforge.net/projects/expat/files/expat/2.1.0/expat-2.1.0-RENAMED-VULNERABLE-PLEASE-USE-2.3.0-INSTEAD.tar.gz
 autoconfbuild
 
