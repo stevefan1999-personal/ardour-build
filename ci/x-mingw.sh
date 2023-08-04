@@ -250,7 +250,7 @@ cp -av drmingw/$WARCH/* "$PREFIX"/
 src xz-5.2.2 tar.bz2 http://tukaani.org/xz/xz-5.2.2.tar.bz2
 autoconfbuild
 
-src zlib-1.2.7 tar.gz ftp://ftp.simplesystems.org/pub/libpng/png/src/history/zlib/zlib-1.2.7.tar.gz
+src zlib-1.2.7 tar.gz https://src.fedoraproject.org/repo/pkgs/mingw-zlib/zlib-1.2.7.tar.gz/60df6a37c56e7c1366cca812414f7b85/zlib-1.2.7.tar.gz
 make -fwin32/Makefile.gcc PREFIX=${XPREFIX}-
 make install -fwin32/Makefile.gcc SHARED_MODE=1 \
 	INCLUDE_PATH=${PREFIX}/include \
